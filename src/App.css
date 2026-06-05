@@ -1,0 +1,83 @@
+
+/* .ticket{
+  color:blue;
+}
+.newcomp{
+  color:red;
+}
+.app{
+  color: aqua;
+  background-color: bisque;
+}
+.btn{
+  background-color: blanchedalmond;
+  color: brown;
+  padding: 8px 8px 5px 5px;
+  border-radius: 10px;
+} */
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+}
+.title{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 1px;
+}
+p{
+    color: grey;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ /* text-align: center; */
+ gap: 30px;
+}
+.img{
+  width:100px;
+    height:100px;
+border-radius: 5px;
+ object-fit:cover;
+}
+button{
+    margin-top: 50px;
+    padding: 10px 30px;
+
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: fit-content;
+    cursor: pointer;}
+
+
+/* .card{
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color:antiquewhite;
+  font-size: 15px;
+
+}
+
+.container h2{
+  width: 250px;
+  word-wrap: break-word;
+  text-align: center;
+} */ 
