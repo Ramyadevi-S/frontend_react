@@ -9,7 +9,7 @@ import { Form } from "./Component/Form";
 import { About } from "./Component/about";
 import { Product } from "./Component/product";
 import { BrowserRouter,Link,Route,Routes} from "react-router-dom";
-import { Home } from "./Component/home";
+import { Home } from "./Component/Home";
 import { MovieBook } from "./Component/MobieBook";
 function App(){
   // const[names,setnames]=useState(["luffy","zoro"])
