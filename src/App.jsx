@@ -11,14 +11,18 @@ import { Product } from "./Component/Product";
 import { BrowserRouter,Link,Route,Routes} from "react-router-dom";
 import { Home } from "./Component/Home";
 import { MovieBook } from "./Component/MobieBook";
+import TodoList from "./Component/TodoList";
+import "./Todo.css";
+
 function App(){
   // const[names,setnames]=useState(["luffy","zoro"])
 
   return(
 
     <div>
-      <MovieBook nam="inception" rating="9.3"/>
-      <MovieBook nam="daredevil" rating="9.8"/>
+      {/* <MovieBook nam="inception" rating="9.3"/>
+      <MovieBook nam="daredevil" rating="9.8"/> */}
+      <TodoList/>
     </div>
 //     <BrowserRouter>
 //     <div >
